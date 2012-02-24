@@ -152,6 +152,7 @@ void szxform(
     prewarp(a0, a1, a2, fc, fs);
     prewarp(b0, b1, b2, fc, fs);
     bilinear(*a0, *a1, *a2, *b0, *b1, *b2, gain, fs, coef);
+    
 }
 
 
